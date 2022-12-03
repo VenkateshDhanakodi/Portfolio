@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://kit.fontawesome.com/d713851d0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="entire-portfolio">
+        <a name="home-page"></a>
+        <div class="logo-navbar">
+            <div class="logo"><span class="highlight">V</span>enkatesh</div>  
+            <ul class="navbar">
+                <li><button class="menubar-button" onclick="menubar(this.value)" value="0"><i class="fa-solid fa-bars"></i></button></li>
+                <li><a href="#home-page"><i class="fa fa-home">Home</i></a></li>
+                <li><a href="#about-page"><i class="fa fa-user" id="nav-about">About</i></a></li>
+                <li><a href="#skills-page"><i class="fa fa-gears">Skills</i></a></li>
+                <li><a href="#profile-page"><i class="fa fa-briefcase">Project</i></a></li>
+                <li><a href="#contact-page"><i class="fa fa-comments">Contact</i></a></li>
+            </ul>
+        </div>
+
+        <div id="home">
+            <div class="photo">
+                <img src="img/my_photo.jpg" alt="">
+            </div>
+            <div class="home-content">
+                <h1 class="intro"><span class="highlight">V</span>enkatesh <span class="highlight">D</span>hanakodi</h2>
+                <h3 class="role"><span class="highlight">MERN</span> Stack Developer</h3>
+                <p class="motive">I am looking forward to build powerfull websites</p>
+            </div>
+            <div class="home-profile">
+                <ul class="home-profile-icons">
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/VenkateshDhanakodi/Webcode---Pokemon-API.git"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+
+            <div id="home-more-about-me">
+                <button class="resume"><a href="#">Resume</a></button>
+            </div>           
+            <a name="about-page"></a>
+        </div>
+
+        <div id="about">
+            <h2 class="about-me-titile">About Me</h2>
+            <h4 class="about-content">I'm Venkatesh, <span class="highlight">MERN Stack Developer</span></h4>
+            <p class="about-content">I started Full Stack Developement course this year in GUVI, I took up programming as an interest and i have picked up some skills on the long but short Road.</p>
+            <p class="about-content">I now build and bring out new strategies on websites and webdesigns for great user experience and best user interface for easy usage and very concise for client's best choice with my technical and professional skills.</p>
+            <div class="education">
+                <h2 class="education-title">Education</h2>
+                <div class="education-list">
+                    <ul class="education-content">
+                        <li><i class="fa fa-solid fa-calendar-days"></i>2013 - 2015</li>
+                        <li><i class="fa fa-solid fa-user-graduate"></i>Diploma in ECE</li>
+                        <li><i class="fa fa-solid fa-school"></i>Sakthi polytechnic college</li>
+                        <li class="city"><i class="fa fa-solid fa-city"></i>Satthiyamangalam</li>
+                    </ul>
+                    <ul class="education-content">
+                        <li><i class="fa fa-solid fa-calendar-days"></i>2022 - Current</li>
+                        <li><i class="fa fa-solid fa-user-graduate"></i>Full Stack Developer (MERN)</li>
+                        <li><i class="fa fa-solid fa-school"></i>Guvi</li>
+                        <li class="city"><i class="fa fa-solid fa-city"></i>Chennai</li>
+                    </ul>                
+                </div>
+                <a name="skills-page"></a>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2 class="skills-titile">Skills</h2>
+            <ul class="skill-list">
+                <li><img src="img/icons8-html-5-480.png" alt="#">HTML</li>
+                <li><img src="img/icons8-css3-480.png" alt="#">CSS</li>
+                <li><img src="img/icons8-javascript-480.png" alt="#">Java Script</li>
+                <li><img src="img/icons8-bootstrap-480.png" alt="#">Bootstrap</li>
+                <li><img src="img/icons8-react-native-480.png" alt="#">ReactJs</li>
+                <li><img src="img/icons8-mysql-logo-480.png" alt="#">MySQL</li>
+                <li><img src="img/icons8-mongodb-480.png" alt="#">MongoDB</li>
+                <li><img src="img/icons8-amazon-web-services-480.png" alt="#">AWS</li>
+                <li><img src="img/icons8-nodejs-480.png" alt="#">NodeJs</li>
+            </ul>
+            <ul class="last-skill">
+            </ul>
+            <a name="profile-page"></a>
+        </div>
+
+        <div class="project">
+            <h2 class="project-titile">Project</h2>
+            <div class="project-list">
+                <img src="img/PokemonAPI_img.png" alt="#">
+                <div class="project-name">Pokemon API</div>
+                <div class="project-links">
+                    <a class="project-link project-link1" href="https://github.com/VenkateshDhanakodi/Webcode---Pokemon-API.git">Github</a>
+                    <a class="project-link project-link2" href="https://zippy-beijinho-4c5cba.netlify.app/">Netlify</a>
+                </div>
+            </div>
+        </div>
+
+        <a name="contact-page"></a>
+        <div class="contact">
+            <h2 class="contact-titile">Contact Me</h2>
+            <h3 class="contact-subtitile1">Have Any Questions</h3>
+            <h4 class="contact-subtitile2">I'm at your service</h4>
+            <ul class="contact-options">
+                <li class="contact-option"><i class="fa fa-solid fa-phone"></i><br>Call Me <br>+91 9902336331</li>
+                <li class="contact-option"><i class="fa fa-solid fa-envelope"></i><br>Email <br>dvenkatesh747@yahoo.com</li>
+                <li class="contact-option"><i class="fa fa-solid fa-globe"></i><br>Website <br>dvenkatesh747.com</li>                  
+            </ul>
+            <h3 class="contact-subtitile1">Send Me an Email</h3>
+            <h4 class="contact-subtitile2">I'm very responsive to messages</h4>
+            <div class="email-msg">
+                <div class="name-email">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                <textarea name="message" id="message" cols="10" rows="4" placeholder="Message"></textarea>
+            </div>
+            <div id="home-more-about-me" class="send">
+                <button class="send-message"><a href="#">Send Message</a></button>
+            </div>     
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
